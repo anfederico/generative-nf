@@ -1,0 +1,6 @@
+process,module,params
+  -> A,echo,word=cat
+A -> B,join,word=bird
+A -> C,join,word=horse
+B -> D,join,word=lion
+B -> E,join,word=fish
